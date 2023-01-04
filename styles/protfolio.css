@@ -95,8 +95,11 @@ section[role="banner"] article p+button, .btn-primary {
     color: #fff;
 }
 
-/* section[role="banner"] article button:last-child {
-} */
+section[role="banner"] article button:last-child {
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
 
 /* main section */
 main {
