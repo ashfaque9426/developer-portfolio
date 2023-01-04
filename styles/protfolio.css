@@ -21,6 +21,10 @@
     padding: 19px 35px;
 }
 
+.mt {
+    margin-top: 130px;
+}
+
 /* Header and Navigation styles */
 
 .header {
@@ -76,13 +80,12 @@ section[role="banner"] p {
     color: #757575;
 }
 
-section[role="banner"] article button {
-    top: 688px;
+section[role="banner"] article button, .download-btn {
     margin: 0 30px 0 0;
     padding: 19px 17px 17px 18px;
     border: none;
     border-radius: 5px;
-    height: 54px;
+    height: 55px;
     font-weight: 600;
 }
 
@@ -115,7 +118,7 @@ main {
 
 .section-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -143,5 +146,74 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* what I do section */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background-color: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume styles */
+.resume-content {
+    display: flex;
+    gap: 33px;
+}
+
+.resume-item {
+    margin-block: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.resume .description {
+    margin: 10px 0 20px 0;
+    color: #757575;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.download-btn {
+    background-color: #FD6E0A;
+    display: inline-block;
+    margin: 25px auto;
+    color: #fff;
+    margin-top: 50px;
 }
 
