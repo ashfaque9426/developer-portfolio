@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Utility Classes */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 19px 35px;
+}
+
+/* Header and Navigation styles */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 51px;
+}
+
+/* banner styles */
+section[role="banner"] {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+section[role="banner"] h2 {
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 115.75px;
+}
+
+section[role="banner"] h2 small {
+    display: block;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61.28px;
+}
+
+section[role="banner"] p {
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+section[role="banner"] article button {
+    top: 688px;
+    margin: 0 30px 0 0;
+    padding: 19px 17px 17px 18px;
+    border: none;
+    border-radius: 5px;
+    height: 54px;
+    font-weight: 600;
+}
+
+section[role="banner"] article p+button {
+    font-family: "Open Sans", sans-serif;
+    background-color: #FD6E0A;
+    color: #fff;
+}
+
+/* section[role="banner"] article button:last-child {
+} */
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me section styles */
+.about-me {
+    margin-block: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-me > article:first-child p {
+    color: #757575;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    text-align: center;
+    color: #757575;
+    margin-block: 30px;
+}
+
+.what-i-am {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.what-i-am h4 {
+    text-align: center;
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.what-i-am p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
